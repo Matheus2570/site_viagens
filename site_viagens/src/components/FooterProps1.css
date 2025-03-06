@@ -1,11 +1,12 @@
 .footer {
-    margin-top: 23%;
-    background-color:#ff81124f;
-    padding: 1% ;
+    margin-top: 30%;
+    background-color:#fc8a18c0;
+    padding: 7px;
     color: #000000;
     border: 2px solid #000000 ;
     text-align: center;
     font-size: 1em;
+    box-shadow: 0 0 10px #000000;
 }
 
 
@@ -16,7 +17,6 @@
     align-items: center;
     padding: 1%;
     gap: 7em;
-    font-size: 1.0em;
 }
 
 .footer_contact {
@@ -25,6 +25,10 @@
     flex: 5;
 }
 
+.footer_contact:hover {
+    transition: color 0.3s ease;
+    color: #ffffff;
+}
 
 .footer_social a {
     margin: 0 5px;
@@ -36,8 +40,14 @@
 
 .footer_social a:hover {
     color: #e67e22; 
-
 }
+
+.footer_social:hover {
+    transition: color 0.3s ease;
+    color: #ffffff;
+}
+
+
 .footer_social p {
     font-size: 1.2em;
    
@@ -48,10 +58,25 @@
     gap: 7em
 }
 
+
+.footer_sobre:hover {
+    transition: color 0.3s ease;
+    color: #ffffff;
+}
+
 i {
     width: 30px;
 }
 
 .footer_feedback {
     flex-direction: column;
+}
+
+.footer_feedback:hover {
+    transition: color 0.3s ease;
+    color: #ffffff;
+}
+
+.footer_reclamacao a {
+    text-decoration: none;
 }

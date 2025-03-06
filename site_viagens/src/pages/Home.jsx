@@ -1,16 +1,12 @@
 import './Home.css'
 import Header from "../components/Header"
-<<<<<<< HEAD
 import Footer1 from "../components/FooterProps1"
-=======
 import Footer2 from '../components/FooterProps2'
->>>>>>> 712af77eea1ac8dcd4f799234b417beeeefb9e24
 
 function Home() {
   return (
     <>
       <Header/>
-<<<<<<< HEAD
       <Footer1
         email="grupo5@gmail.com"
         telefone="(19)1942-1845"
@@ -22,9 +18,7 @@ function Home() {
         reclamacao= "https://www.reclameaqui.com.br"
         />
       
-
-    </div>
-=======
+ 
       <Footer2
       texto1='Direitos reservador de 
       Grupo5 SESI SENAI vinhedo Estado de SP
@@ -33,8 +27,8 @@ function Home() {
       texto2='Mais uma vez, muito obrigado(a) por escolher a nossa empresa. Sua confiança é o nosso maior patrimônio.
 Atenciosamente,Grupo 5 😉'
       />
+      
     </>
->>>>>>> 712af77eea1ac8dcd4f799234b417beeeefb9e24
   )
 }
 
