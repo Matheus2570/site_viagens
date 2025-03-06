@@ -28,6 +28,7 @@ function Home() {
       texto2='Mais uma vez, muito obrigado(a) por escolher a nossa empresa. Sua confiança é o nosso maior patrimônio.
 Atenciosamente,Grupo 5 😉'
       />
+      
     </>
   )
 }
