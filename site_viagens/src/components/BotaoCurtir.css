@@ -1,0 +1,36 @@
+.botao-curtir-ativo {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 0.9%;
+    border-radius:  4%;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    font-size: 1.2rem;
+  }
+  
+  .botao-curtir-ativo:hover {
+    background-color: #2ecc71;
+    transform: scale(1.05);
+  }
+  
+  .botao-curtir-inativo {
+    background-color: gray;
+    color: white;
+    border: none;
+ padding: 0.9%;
+border-radius: 4%;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    font-size: 1.2rem;
+  }
+  
+  .botao-curtir-inativo:hover {
+    background-color: #808080;
+    transform: scale(1.05);
+  }
+
+  .meio{
+    display: flex;
+    justify-content: center;
+  }
