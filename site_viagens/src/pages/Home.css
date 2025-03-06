@@ -1,0 +1,30 @@
+.conteiner {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    border: 2px solid #ccc;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .conteiner img {
+    width: 100%;
+    height: 25vh;
+    border-radius: 5px 5px 0 0;
+  }
+  
+  .conteiner h1 {
+    padding: 0.5%;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .conteiner p {
+    padding: 0.5%;
+    font-size: 1.1em;
+    color: #000000;
+    margin-bottom: 10px;
+  }

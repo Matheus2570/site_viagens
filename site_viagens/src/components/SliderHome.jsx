@@ -1,12 +1,8 @@
 import { useState } from "react";
-import imagem1 from "../assets/brown-wooden-dock.jpg";
-import imagem2 from "../assets/cascade-boat-clean-china-natural-rural.jpg";
-import imagem3 from "../assets/seoraksan-mountains-is-covered-by-morning-fog-sunrise-seoul-korea.jpg";
 import "./SliderHome.css";
 
-function SliderHome() {
-  const imagens = [imagem1, imagem2, imagem3];
-
+function SliderHome(props) {
+  const { imagens } = props;
   const [imagemAtual, setImagemAtual] = useState(0);
 
   const Proximo = () => {
