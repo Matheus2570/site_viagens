@@ -54,8 +54,8 @@ Este projeto é um **site de viagens** desenvolvido para oferecer uma experiênc
 
 ---
 
-## 🚀 Como Rodar o Projeto
+## 📌 Como vizualizar
 
-1. Clone o repositório:
+1. Cole esse link no seu google:
    ```bash
    https://site-seminario-de-quimica.vercel.app
