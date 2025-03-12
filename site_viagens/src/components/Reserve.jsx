@@ -8,7 +8,6 @@ function Reservado () {
     setIsReserved(!isReserved);
   };
 
-
   return (
     <div className="container">
       <button className={isReserved ? 'botao reservado' : 'botao'} onClick={click}>
@@ -17,6 +16,5 @@ function Reservado () {
     </div>
   );
 };
-
 
 export default Reservado;
