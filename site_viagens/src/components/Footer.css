@@ -11,65 +11,62 @@
 
 .Bloco1 {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     padding: 0.8rem 1.2rem;
     font-size: 1.2rem;
+    height: auto;
+    padding: 1%;
     border: 0.1rem solid #ccc; 
     border-radius: 8px; 
+    background-color: #84b1e21f;
+
+
+    gap: 100px;
 
     
 }
 
 .Bloco1-1{
-    display: flex;  
-    flex-direction: column;          
-    justify-content: center;   
-    align-items: center;        
+         margin-left: 3%; 
     text-align: justify;         
-    width: 35%;
+    width: 110vw;
     box-sizing: border-box;
     border-radius: 8px;
-    padding: 0.5%;
-    padding-right: 5%;
+  
+  
 
 }
 
 .Bloco1-2{
-    display: flex;  
-    flex-direction: column;              
-    justify-content: center;    
-    align-items: center;
+   
     text-align: justify;         
-    width: 35%;
+    width: 100%;
+
     box-sizing: border-box;
     border-radius: 8px;
-    padding: 0.5%;
+   
    
 }
 
 .Bloco1-3{
-    display: flex;  
-    flex-direction: column;              
-    justify-content: center;    
-    align-items: center;
-    text-align: justify;         
-    width: 35%;
+ 
+    text-align: center;         
+        width: 100%;
+
+
     box-sizing: border-box;
     border-radius: 8px;
-    padding: 0.5%;
-   
+  
+
 }
 
 .Bloco1-4{
-    display: flex;  
-    flex-direction: column;              
-    justify-content: center;    
-    align-items: center;
-    text-align: justify;         
-    width: 35%;
+    text-align: center;         
+width: 85%;
+
     box-sizing: border-box;
     border-radius: 8px;
-    padding: 0.5%;
+ 
 }
 
 .consertando{
@@ -77,19 +74,23 @@ margin-bottom: 10%;
 }
 
 .Bloco2img {
+    border: 0.1rem solid #ccc; 
+
     padding: 0.4%;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 0.6%;
     border-radius: 8px; 
+    
 }
 
 .Bloco2img img {
     width: 15%;
     height: auto;
     border-radius: 5px;
-    border: 0.2rem solid #fff; 
+    border: 0.1rem solid #ccc; 
+
     transition: transform 0.3s ease-in-out;
 }
 
@@ -105,6 +106,7 @@ margin-bottom: 10%;
     border: 0.1rem solid #ccc; 
     font-size: 1.2rem;
     border-radius: 8px; 
+    background-color: #84b1e24a;
 }
 
 .BlocoSobreNos {
@@ -116,6 +118,8 @@ margin-bottom: 10%;
     border: 0.1rem solid #ccc; 
     font-size: 1.2rem;
     border-radius: 8px; 
+    background-color: #ffffff;
+    
 }
 
 .BlocoSobreNos a {
@@ -138,6 +142,7 @@ margin-bottom: 10%;
     border: 0.1rem solid #ccc; 
     font-size: 1.2rem;
     border-radius: 8px; 
+    background-color: #ffffff;
 }
 
 .BlocoReclamacoes p {

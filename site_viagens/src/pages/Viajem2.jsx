@@ -32,9 +32,6 @@ function Viajem2() {
     </>
   } 
 /> 
- 
-
-
 <ProximaViajem texto="Próximo" caminho="/viajem3" />
       <Footer/>
     </>
