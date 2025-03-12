@@ -31,6 +31,7 @@ function Viajem3() {
     Incluso: Café da manhã, Almoço, Café da tarde, Janta, Área de lazer, Guia turístico por 5 horas diárias, Cancelamento gratuito. <br></br>
     Valor a vista:  R$8.493 <br></br>
     Ou até 3 x R$2.831 sem juros!!!<br></br>
+    Disponível até: 07/06/2025
     </>
   } 
 />
