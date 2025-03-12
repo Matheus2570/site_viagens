@@ -1,0 +1,108 @@
+.Footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff; 
+    color: #000000; 
+    padding: 0.6%;
+    margin-top: 2%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+
+}
+
+.Bloco1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.8rem 1.2rem;
+    font-size: 1.2rem;
+    border: 0.1rem solid #ccc; 
+    border-radius: 8px; 
+}
+
+.Bloco2img {
+    padding: 0.4%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.6%;
+    border: 0.1rem solid #ccc; 
+    border-radius: 8px; 
+}
+
+.Bloco2img img {
+    width: 13%;
+    height: auto;
+    border-radius: 5px;
+    border: 0.2rem solid #fff; 
+    transition: transform 0.3s ease-in-out;
+}
+
+.Bloco2img img:hover {
+    transform: scale(1.02);
+}
+
+.Bloco3 {
+    margin-top: 1%;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.2% 1.8%;
+    border: 0.1rem solid #ccc; 
+    font-size: 1.2rem;
+    border-radius: 8px; 
+}
+
+.BlocoSobreNos {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 0.6rem;
+    width: 50%;
+    border: 0.1rem solid #ccc; 
+    font-size: 1.2rem;
+    border-radius: 8px; 
+}
+
+.BlocoSobreNos a {
+    color: #e67e22; 
+    margin-right: 1rem;
+    font-size: 1.5rem;
+    transition: color 0.3s ease;
+}
+
+.BlocoSobreNos a:hover {
+    color: #333; 
+}
+
+.BlocoReclamacoes {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    text-align: center;
+    gap: 1vw;
+    border: 0.1rem solid #ccc; 
+    font-size: 1.2rem;
+    border-radius: 8px; 
+}
+
+.BlocoReclamacoes p {
+    margin-top: 2%;
+}
+
+.footer_social a {
+    margin: 0 5px;
+    font-size: 1.2em;
+    color: #000000; 
+    transition: color 0.3s ease;
+}
+
+.footer_social a:hover i {
+    color: #e67e22; 
+}
+
+.footer_social p {
+    font-size: 1.4em;
+}
+
+.footer_social li {
+    font-size: 1.15em;
+    font-weight: bold;
+}

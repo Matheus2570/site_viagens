@@ -1,24 +1,33 @@
-
-  
 .bloco {
-    display: flex;
-    flex-direction: column;
-    border: 2px solid #ccc;
-    width: calc(33.33% - 20px);
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-height: 55vh;
-text-align: center;
-width: 20vw;
-  }
-  
+  display: flex;
+  flex-direction: column;
+  border: 2px solid #ccc; /* Bordas cinza claro */
+  width: 20vw; /* Largura do bloco */
+  border-radius: 8px; /* Bordas arredondadas */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  height: 55vh; /* Altura do bloco */
+  text-align: center; /* Centraliza o texto */
+  transition: transform 0.2s, box-shadow 0.2s; /* Transições suaves */
+  background-color: #ffffff; /* Fundo branco */
+}
 
-.valor{
-    color: #ff8103;
-    font-size: 16px;
-    font-weight: bold;
-  }
+.bloco:hover {
+  transform: scale(1.03); /* Efeito de aumento ao passar o mouse */
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); /* Sombra mais intensa ao passar o mouse */
+}
 
-.link{
-    text-decoration: none;
+.valor {
+  color: #ff8103; /* Cor laranja vibrante */
+  font-size: 16px; /* Tamanho da fonte */
+  font-weight: bold; /* Negrito */
+}
+
+.link {
+  text-decoration: none; /* Remove o sublinhado dos links */
+  color: #000000; /* Texto preto para os links */
+  transition: color 0.2s ease; /* Transição suave para a cor do link */
+}
+
+.link:hover {
+  color: #e67e22; /* Laranja vibrante ao passar o mouse */
 }

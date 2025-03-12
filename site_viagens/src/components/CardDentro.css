@@ -1,0 +1,124 @@
+.article {
+  display: flex;
+  justify-content: center;
+  margin-top: 2%;
+}
+
+.BlocoMaior {
+  width: 50%;
+  height: 80vh;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.article img {
+  width: 100%;
+  height: 40vh;
+  object-fit: cover;
+  border-bottom: 2px solid #88888857;
+  transition: transform 0.3s ease-in-out;
+}
+
+.article img:hover {
+  transform: scale(1.05);
+}
+
+.BlocoDescriAvali {
+  display: flex;
+  justify-content: space-between;
+  padding: 2%;
+}
+
+.Descricao {
+  display: flex;
+  justify-content: center;
+  text-align: justify;
+  font-size: 1vw;
+  color: #333;
+  margin-right: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  border: 2px solid #88888857;
+
+
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: 70%;
+}
+
+.Avaliacao {
+  border: 2px solid #88888857;
+
+  border-radius: 5px;
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+}
+
+.BlocoDataFavorit {
+  margin-top: 2%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2%;
+  border-top: none;
+}
+
+.DataEDisponibilidade {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10%;
+  border: 2px solid #88888857;
+  width: 30%;
+  height: 10vh;
+  font-size: 1.3em;
+  color: #000000;
+}
+
+.Favorite {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 15%;
+  border: 2px solid #88888857;
+
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.Favorite p {
+  font-weight: bold;
+  font-size: 1.3em;
+  color: #333;
+}
+
+.ProximaViajem {
+  display: flex;
+  justify-content: center; /* Centraliza o conteúdo */
+  margin-top: 20px; /* Espaçamento superior */
+}
+
+.ProximoLink {
+  display: inline-block; /* Permite aplicar padding e margin */
+  padding: 10px 20px; /* Espaçamento interno */
+  background-color: #ffffff; /* Fundo branco */
+  color: #000000; /* Texto preto */
+  border: 2px solid #ccc; /* Bordas cinza claro */
+  border-radius: 8px; /* Bordas arredondadas */
+  text-decoration: none; /* Remove o sublinhado */
+  font-size: 1.2em; /* Tamanho da fonte */
+  transition: background-color 0.3s, color 0.3s; /* Transições suaves */
+}
+
+.ProximoLink:hover {
+  background-color: #e67e22; /* Cor de fundo ao passar o mouse */
+  color: #ffffff; /* Texto branco ao passar o mouse */
+}

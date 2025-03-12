@@ -1,0 +1,22 @@
+.ProximaViajem {
+    display: flex;
+    justify-content: center; /* Centraliza o conteúdo */
+    margin-top: 20px; /* Espaçamento superior */
+}
+
+.ProximoLink {
+    display: inline-block; /* Permite aplicar padding e margin */
+    padding: 10px 20px; /* Espaçamento interno */
+    background-color: #ffffff; /* Fundo branco */
+    color: #000000; /* Texto preto */
+    border: 2px solid #ccc; /* Bordas cinza claro */
+    border-radius: 8px; /* Bordas arredondadas */
+    text-decoration: none; /* Remove o sublinhado */
+    font-size: 1.2em; /* Tamanho da fonte */
+    transition: background-color 0.3s, color 0.3s; /* Transições suaves */
+}
+
+.ProximoLink:hover {
+    background-color: #e67e22; /* Cor de fundo ao passar o mouse */
+    color: #ffffff; /* Texto branco ao passar o mouse */
+}

@@ -1,4 +1,4 @@
-import React from 'react';
+
 
 function Viajem2() {
   return <div>Viajem 2</div>;

@@ -1,36 +1,40 @@
 .botao-curtir-ativo {
-    background-color: green;
-    color: white;
-    border: none;
-    padding: 0.9%;
-    border-radius:  4%;
-    cursor: pointer;
-    transition: background-color 0.3s ease, transform 0.3s ease;
-    font-size: 1.2rem;
-  }
-  
-  .botao-curtir-ativo:hover {
-    background-color: #2ecc71;
-    transform: scale(1.05);
-  }
-  
-  .botao-curtir-inativo {
-    background-color: gray;
-    color: white;
-    border: none;
- padding: 0.9%;
-border-radius: 4%;
-    cursor: pointer;
-    transition: background-color 0.3s ease, transform 0.3s ease;
-    font-size: 1.2rem;
-  }
-  
-  .botao-curtir-inativo:hover {
-    background-color: #808080;
-    transform: scale(1.05);
-  }
+  background-color: green;
+  color: white;
+  border: none;
+  padding: 0.6%;
+  border-radius: 4%;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+  font-size: 1.1rem;
+  box-shadow: 0px 4px 6px rgba(0, 128, 0, 0.3); 
+}
 
-  .meio{
-    display: flex;
-    justify-content: center;
-  }
+.botao-curtir-ativo:hover {
+  background-color: #2ecc71;
+  transform: scale(1.05);
+  box-shadow: 0px 6px 8px rgba(0, 128, 0, 0.5); 
+}
+
+.botao-curtir-inativo {
+  background-color: gray;
+  color: white;
+  border: none;
+  padding: 0.6%;
+  border-radius: 4%;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+  font-size: 1.1rem;
+  box-shadow: 0px 4px 6px rgba(128, 128, 128, 0.3); 
+}
+
+.botao-curtir-inativo:hover {
+  background-color: #808080;
+  transform: scale(1.05);
+  box-shadow: 0px 6px 8px rgba(128, 128, 128, 0.5); 
+}
+
+.meio {
+  display: flex;
+  justify-content: center;
+}

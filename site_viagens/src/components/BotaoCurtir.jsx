@@ -10,7 +10,7 @@ function BotaoCurtir() {
         className={curtir ? "botao-curtir-ativo" : "botao-curtir-inativo"}
         onClick={() => setCurtir(!curtir)}
       >
-        {curtir ? "Site curtido ✅" : "Curtiu o site? 👍"}
+        {curtir ? "Site curtido ✅" : "Curta o site 👍"}
       </button>
     </div>
   );
