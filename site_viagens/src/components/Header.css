@@ -1,25 +1,14 @@
 .header {
     display: flex;
     align-items: center;
-    gap: 10%;
     justify-content: center;
     padding: 1%;
     border-bottom: none;
     border: 1px solid #ccc; /* Bordas cinza claro */
-    background-color: #ffffff; /* Fundo branco */
+    background-color: #84b2e2e3; /* Fundo branco */
     color: #000000; /* Texto preto */
-    font-size: 1.1em;
+    font-size: 2.4em;
     font-family: 'Times New Roman', Times, serif;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
 }
 
-.logo {
-    width: 10%;
-    transition: box-shadow 0.2s ease, transform 0.2s ease; /* Combinação de transições */
-    border-radius: 10%; /* Bordas arredondadas */
-}
-
-.logo:hover {
-    transform: scale(1.05); /* Efeito de aumento ao passar o mouse */
-    box-shadow: 2px 5px 10px #333333; /* Sombra ao passar o mouse */
-}
