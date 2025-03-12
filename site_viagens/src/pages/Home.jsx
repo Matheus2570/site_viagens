@@ -27,38 +27,38 @@ function Home() {
           <Cards
             img={Grecia}
             alt="Imagem"
-            titulo="Título do card"
-            nota={4}
-            descricao="Descrição do card"
-            valor="R$ 1500 passagem ida e volta"
+            titulo="GRÉCIA"
+            nota={5.8}
+            descricao="Grécia te fazer viajar na história. Viaje com a gente!"
+            valor="5 diárias, 5x R$550,00 SEM JUROS!!"
              link="/viajem1"
           />
           <Cards
             img={Florenca}
             alt="Imagem"
-            titulo="Título do card"
-            nota={4}
-            descricao="Descrição do card"
-            valor="R$ 1500 passagem ida e volta"
+            titulo="ITÁLIA"
+            nota={9.7}
+            descricao="Viaje para Itália e acalme sua mentes em suas férias."
+            valor="8 diárias, 5x R$1.559,00 SEM JUROS!!"
             link="/viajem2"
           />
           <Cards
             img={Maldivas}
             alt="Imagem"
-            titulo="Título do card"
-            nota={4}
-            descricao="Descrição do card"
-            valor="R$ 1500 passagem ida e volta"
+            titulo="MALDIVAS"
+            nota={8.3}
+            descricao="Viajar é bom, e para maldivas melhor ainda!"
+            valor="5 diárias, 5x R$240,00 SEM JUROS!!"
             link="/viajem3"
 
           />
           <Cards
             img={Canada}
             alt="Imagem"
-            titulo="Título do card"
-            nota={4}
-            descricao="Descrição do card"
-            valor="R$ 1500 passagem ida e volta"
+            titulo="CANADÁ"
+            nota={8.2}
+            descricao="Viagem para canadá pode acabar com seus problemas facilmente! "
+            valor="10 diárias, 5x R$550,00 SEM JUROS!!"
             link="/viajem4"
           />
         </div>

@@ -1,10 +1,10 @@
 .bloco {
   display: flex;
   flex-direction: column;
-  border: 2px solid #ccc; /* Bordas cinza claro */
+  border: 2px solid #b1bac6; /* Bordas cinza claro */
   width: 20vw; /* Largura do bloco */
   border-radius: 8px; /* Bordas arredondadas */
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  box-shadow: 0 4px 10px rgba(164, 155, 143, 0.245); /* Sombra suave */
   height: 55vh; /* Altura do bloco */
   text-align: center; /* Centraliza o texto */
   transition: transform 0.2s, box-shadow 0.2s; /* Transições suaves */
