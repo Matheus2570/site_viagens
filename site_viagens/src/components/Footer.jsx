@@ -57,16 +57,15 @@ function Footer() {
                 </a>
               </div>
             </p>
-            <p>Nos somos o grupo 5</p>
+            <p>Nós somos o grupo 5</p>
           </div>
           <div className="BlocoReclamacoes">
             <p>Numero para reclamações: 
-              0800-9875 / 
-              19-989124968
+            (19) 9891-24968/ 0800-9875 
             </p>
             <p>Numero para feedbacks e dúvidas:
-              0800-2246 / 
-              19-992623475
+            (19) 9891-24968/ 0800-9875 
+
             </p>
           </div>
         </div>

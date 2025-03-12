@@ -11,7 +11,7 @@ function Reservado () {
   return (
     <div className="container">
       <button className={isReserved ? 'button reserved' : 'button'} onClick={handleClick}>
-        {isReserved ? 'Reservado' : 'Reserve'}
+        {isReserved ? 'Vajem reservada 🧳' : 'Reserve a viajem ✈️'}
       </button>
     </div>
   );

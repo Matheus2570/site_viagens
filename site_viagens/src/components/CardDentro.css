@@ -6,11 +6,12 @@
 
 .BlocoMaior {
   width: 70%;
-  height: 100vh;
+  height: 95vh;
   border-radius: 8px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   overflow: hidden;
-  
+  background-color: #84b1e21b;
+  box-shadow: 0 4px 10px #84b1e261;
 }
 
 .article img {
@@ -50,9 +51,8 @@
 
 .Avaliacao {
   border: 2px solid #88888857;
-
   border-radius: 5px;
-  width: 80%;
+  width: 90%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -74,7 +74,7 @@
 
 .Favorite {
   margin-top: 3%;
-  width: 80%;
+  width: 90%;
   height: 14vh;
   display: flex;
   flex-direction: column;
