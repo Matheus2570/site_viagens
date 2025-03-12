@@ -3,7 +3,7 @@
   flex-wrap: wrap;
   gap: 20px; /* Espaçamento entre os itens */
   justify-content: center; /* Centraliza os itens */
-  border: 2px solid #de8123b1; /* Bordas cinza claro */
+  border: 2px solid #2381deb1; /* Bordas cinza claro */
   padding: 20px; /* Espaçamento interno */
   width: 90%;
   margin: 0 auto; /* Centraliza o contêiner na página */
