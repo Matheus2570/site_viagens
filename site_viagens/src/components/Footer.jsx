@@ -18,16 +18,15 @@ function Footer() {
             <p className="consertando">
               Direitos reservador de Grupo 5 SESI SENAI Vinhedo Estado de SP
               @Institutodaeducação - Aprovação de direitos de imagem Nacional
-              Brasileiro Mundial 🙂 Companhias Aéreas{" "}
+              Brasileiro Mundial
             </p>
           </div>
           <div className="Bloco1-3">
             <p>
-              {" "}
-              Azul <br></br>
-              VoeGol <br></br>
-              Latam <br></br>
-              Tam
+              Nossas parceiras aereas: Voe Azul<br></br>
+              Voe Gol <br></br>
+              Voe Latam <br></br>
+              American Airlines
             </p>
           </div>
           <div className="Bloco1-4">
@@ -38,7 +37,7 @@ function Footer() {
               Maldivas <br></br>
               Canadá
             </p>
-            </div>
+          </div>
         </div>
         <div className="Bloco2img">
           <img src={Grupo5} alt="" />
