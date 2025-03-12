@@ -54,8 +54,3 @@ Este projeto é um **site de viagens** desenvolvido para oferecer uma experiênc
 
 ---
 
-## 📌 Como vizualizar
-
-1. Cole esse link no seu google:
-   ```bash
-   https://site-seminario-de-quimica.vercel.app
