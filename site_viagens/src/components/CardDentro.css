@@ -5,8 +5,8 @@
 }
 
 .BlocoMaior {
-  width: 50%;
-  height: 90vh;
+  width: 70%;
+  height: 100vh;
   border-radius: 8px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   overflow: hidden;
@@ -52,13 +52,14 @@
   border: 2px solid #88888857;
 
   border-radius: 5px;
-  width: 30%;
+  width: 80%;
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: #f9f9f9;
   box-shadow: 0 2px 5px rgba(170, 23, 23, 0.1);
   padding: 10px;
+  height: 15vh;
 }
 
 .BlocoDataFavorit {
@@ -70,20 +71,10 @@
   border-top: none;
 }
 
-.DataEDisponibilidade {
-  display: flex;
-justify-content: center;
-  align-items: center;
-  margin-left: 10%;
-  border: 2px solid #88888857;
-  width: 34%;
-  height: 10vh;
-  font-size: 1.2em;
-  color: #000000;
-}
 
 .Favorite {
-  width: 25%;
+  margin-top: 3%;
+  width: 80%;
   height: 14vh;
   display: flex;
   flex-direction: column;

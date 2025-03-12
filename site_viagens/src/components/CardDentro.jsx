@@ -14,19 +14,22 @@ function CardDentro(props) {
                         <div className="Descricao">
                             <p>{props.descricao}</p>
                         </div>
+                        <div className="column">
                         <div className="Avaliacao">
                             <Estrelas />
-                        </div>
-                    </div>
-
-                    <div className="BlocoDataFavorit">
-                        <div className="DataEDisponibilidade">
-                            <p>{props.dataedisponibilidade}</p>
                         </div>
                         <div className="Favorite">
                             <Favoritar />
                             <p>Favorite a viajem</p>
                         </div>
+
+                        </div>
+                   
+                    </div>
+
+                    <div className="BlocoDataFavorit">
+
+                      
                     </div>
                     <Reservado/>
                 </div>
