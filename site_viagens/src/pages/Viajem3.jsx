@@ -24,7 +24,7 @@ function Viajem3() {
   dataedisponibilidade="Disponível até 31/12/2025" 
 />
 
-<ProximaViajem texto="Próximo" caminho="/viajem2" />
+<ProximaViajem texto="Próximo" caminho="/viajem4" />
       <Footer/>
     </>
   );

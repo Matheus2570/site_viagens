@@ -1,6 +1,7 @@
 import "./CardDentro.css";
 import Estrelas from "../components/Estrelas";
 import Favoritar from "./Favoritar.jsx";
+import Reservado from "./Reserve.jsx";
 
 
 function CardDentro(props) {
@@ -27,6 +28,7 @@ function CardDentro(props) {
                             <p>Favorite a viajem</p>
                         </div>
                     </div>
+                    <Reservado/>
                 </div>
             </article>
 

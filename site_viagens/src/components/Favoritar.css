@@ -5,7 +5,6 @@
   cursor: pointer;
   color: gray; 
   transition: color 0.3s ease, transform 0.2s ease;
-  margin-top: 5%
 }
 
 .heart-button .bx:hover {
