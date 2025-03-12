@@ -21,7 +21,6 @@ function Viajem2() {
       <CardDentro 
   nome={imagem1} 
   descricao="Descrição detalhada do lugar" 
-  dataedisponibilidade="Disponível até 31/12/2025" 
 />
 
 <ProximaViajem texto="Próximo" caminho="/viajem3" />
