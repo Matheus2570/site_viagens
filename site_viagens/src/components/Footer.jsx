@@ -23,7 +23,7 @@ function Footer() {
           </div>
           <div className="Bloco1-3">
             <p>
-              Nossas parceiras aereas: Voe Azul<br></br>
+              Nossas parceiras aereas: <br></br>Voe Azul<br></br>
               Voe Gol <br></br>
               Voe Latam <br></br>
               American Airlines
