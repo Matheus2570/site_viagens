@@ -1,4 +1,4 @@
-import "./Viajem.css"
+
 import Header from "../components/Header.jsx";
 import Slider from "../components/Slider.jsx"
 import Nav from "../components/Nav.jsx"

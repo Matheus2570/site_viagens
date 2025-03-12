@@ -1,47 +1,31 @@
 .avaliacao-container {
-    text-align: center;
-    font-family: Arial, sans-serif;
-    
-  }
-  
-  .estrelas {
-    display: flex;
-    justify-content: center;
-    gap: 8px;
-  }
-  
-  .star-button {
-    background-color: transparent;
-    border: none;
-    cursor: pointer;
-    padding: 5px;
-    transition: transform 0.2s ease;
-  }
-  
-  .star-button:hover {
-    transform: scale(1.2);
-  }
-  
-  .bx {
-    font-size: 2em;
-    color: #808080;
-    transition: color 0.3s ease, transform 0.2s ease;
-  }
-  
-  .bx.ativo {
-    color: #ffa500;
-    
-  }
-  
-  .star-button:hover .bx {
-    color: #ffa500;
-    transform: scale(1.1);
-  }
-  
-  .nota {
-    color: red;
-    font-weight: bold;
-    font-size: 1.2em;
-    transition: color 0.3s ease;
-  }
-  
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.estrelas {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}
+
+.star-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 5px;
+  transition: transform 0.2s ease;
+}
+
+.star-button:hover {
+  transform: scale(1.2);
+}
+
+.bx {
+  font-size: 2em;
+  transition: color 0.3s ease, transform 0.2s ease;
+}
+
+
+
+

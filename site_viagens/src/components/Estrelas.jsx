@@ -9,7 +9,7 @@ function Avaliacao() {
       <div className="estrelas">
         {[1, 2, 3, 4, 5].map((num) => (
           <button key={num} onClick={() => setNota(num)} className="star-button">
-            <i className={`bx bxs-star ${nota >= num ? "ativo" : ""}`}></i>
+            <i className={`bx bxs-star`} style={{ color: nota >= num ? "#ffa500" : "#808080" }}></i>
           </button>
         ))}
       </div>
