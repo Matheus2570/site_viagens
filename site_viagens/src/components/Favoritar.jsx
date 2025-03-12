@@ -1,18 +1,18 @@
 import React, { useState } from 'react';
 import './Favoritar.css'; 
 
-const HeartButton = () => {
-  const [isFavorited, setIsFavorited] = useState(false);
+const coracao = () => {
+  const [efavorito, seteFavorito] = useState(false);
 
-  const toggleFavorite = () => {
-    setIsFavorited(!isFavorited);
+  const favorito = () => {
+    seteFavorito(!efavorito);
   };
 
   return (
-    <button className="heart-button" onClick={toggleFavorite}>
-      <i className={`bx bxs-heart ${isFavorited ? 'red-heart' : ''}`}></i>
+    <button className="heart-button" onClick={favorito}>
+      <i className={`bx bxs-heart ${efavorito ? 'red-heart' : ''}`}></i>
     </button>
   );
 };
 
-export default HeartButton;
+export default coracao;

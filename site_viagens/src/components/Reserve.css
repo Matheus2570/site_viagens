@@ -3,8 +3,8 @@
     justify-content: center; 
 }
 
-.button {
-margin-top: -5%;
+.botao {
+    margin-top: -5%;
     cursor: pointer;
     display: inline-block; 
     padding: 10px 20px; 
@@ -17,13 +17,13 @@ margin-top: -5%;
     transition: background-color 0.3s, color 0.3s;
 }
 
-.button:hover {
+.botao:hover {
     background-color: #e67e22; 
     color: #ffffff; 
 }
 
-.button.reserved {
-    background-color: #e67e22; 
+.reservado {
+    background-color: #f97400; 
     color: #ffffff; 
     border: 2px solid #e67e22; 
 }
