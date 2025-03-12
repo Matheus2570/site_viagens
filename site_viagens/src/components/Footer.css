@@ -29,7 +29,7 @@
 }
 
 .Bloco2img img {
-    width: 13%;
+    width: 15%;
     height: auto;
     border-radius: 5px;
     border: 0.2rem solid #fff; 
@@ -37,7 +37,7 @@
 }
 
 .Bloco2img img:hover {
-    transform: scale(1.02);
+    transform: scale(1.05);
 }
 
 .Bloco3 {
@@ -84,7 +84,7 @@
 }
 
 .BlocoReclamacoes p {
-    margin-top: 2%;
+    margin-top: 3.5%;
 }
 
 .footer_social a {

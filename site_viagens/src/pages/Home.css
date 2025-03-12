@@ -5,7 +5,7 @@
   justify-content: center; /* Centraliza os itens */
   border: 2px solid #ccc; /* Bordas cinza claro */
   padding: 20px; /* Espaçamento interno */
-  max-width: 1200px; /* Largura máxima do contêiner */
+  width: 90%;
   margin: 0 auto; /* Centraliza o contêiner na página */
   background-color: #ffffff; /* Fundo branco */
   border-radius: 8px; /* Bordas arredondadas */
